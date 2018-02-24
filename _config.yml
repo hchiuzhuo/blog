@@ -3,7 +3,7 @@ title:               Collection
 tagline:             'Learning Path '
 description:         'A collection of learning notes in computer science'
 url:                  http://hchiuzhuo.github.io
-baseurl:             '/portal'
+baseurl:             '/portal/blog'
 paginate:            5
 excerpt_separator:  '<!-- more -->'
 #logo: '/public/logo.png'
