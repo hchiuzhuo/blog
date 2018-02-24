@@ -3,7 +3,7 @@ title:               Collection
 tagline:             'Learning Path '
 description:         'A collection of learning notes in computer science'
 url:                  http://hchiuzhuo.github.io
-baseurl:             '/portal/blog'
+baseurl:             '/blog'
 paginate:            5
 excerpt_separator:  '<!-- more -->'
 #logo: '/public/logo.png'
@@ -42,15 +42,11 @@ nav:
   About:
     - '/about/'
   Github Project:
-    - 'http://codinfox.github.io/'
+    - 'http://hchiuzhuo.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
-
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
 # Puglins
 mathjax: true # whether support mathjax
