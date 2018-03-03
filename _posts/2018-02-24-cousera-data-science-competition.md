@@ -33,7 +33,7 @@ tag: [cousera]
   - Examples: decision tree, random forest, GDBT.
   - Pros: Good for tabular data, many winner take this approach.
   - Cons: Hard to capture linear dependencies since it requires a lot of splits.
-![Comparision of linear model and tree based model](../public/_postsimg/2018-02-24-cousera-data-science-competition/lineartree.png)
+![Comparision of linear model and tree based model](https://hchiuzhuo.github.io/website/public/postsimg/2018-02-24-cousera-data-science-competition/lineartree.png)
   - Impl: scikit learn (general), dmlc xgboost and microsoft/light gbm (faster, higher accuracy)
   [Explanation of Random Forest](http://www.datasciencecentral.com/profiles/blogs/random-forests-explained-intuitively)
 

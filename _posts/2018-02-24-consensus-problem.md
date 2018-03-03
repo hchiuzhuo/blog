@@ -246,7 +246,10 @@ The algorithm works as belows:
 
 ### 4.1.3 Normal operation
 The normal operation assumes that the node 3 is faulty and no response.
-![PBFT](../public/_postsimg/2018-02-24-consensus-problem/PBFT.png)
+<!-- ![PBFT](../public/postsimg/2018-02-24-consensus-problem/PBFT.png) -->
+<!-- ![PBFT](/website/public/postsimg/2018-02-24-consensus-problem/PBFT.png) -->
+![PBFT](https://hchiuzhuo.github.io/website/public/postsimg/2018-02-24-consensus-problem/PBFT.png)
+
 
 Note: replicas is a union set of primary nodes and the other backups.
 >1. The client sends a request to the primary.
@@ -340,6 +343,7 @@ PBFT 算法包括三个阶段来达成共识：Pre-Prepare、Prepare 和 Commit�
 [[13] bitcoin on Kahn Academy](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-security-of-transaction-block-chains)<br>
 [[14] Bitcoin: A Peer-to-Peer Electronic Cash Systems, Satoshi Nakamoto, 2008.](https://bitcoin.org/bitcoin.pdf)<br>
 [[15] Blockchain technology, UC berkeley](http://scet.berkeley.edu/wp-content/uploads/BlockchainPaper.pdf )<br>
-[[16] Blockchain programming](http://davidederosa.com/basic-blockchain-programming/)
+[[16] Blockchain programming](http://davidederosa.com/basic-blockchain-programming/)<br>
+[[17] A brief history of Consensus, 2PC and Transaction Commit](http://betathoughts.blogspot.tw/2007/06/brief-history-of-consensus-2pc-and.html)
 
 
