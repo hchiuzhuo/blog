@@ -304,6 +304,53 @@ Text preprocessing
 2. lemmatization
 3. stemming
 4. stopwords
+
+
+# 2. Week 2
+
+## 2.1  EDA
+- Get domain knowledge.
+- Check if the data is intuitive.
+- Understand how the data is generated.
+
+
+## 2.2 Process anonymized features
+- Try to decode the feature: guess the true meanings.
+- Guess the feature types.
+
+```
+Helpful functions:
+df.dtypes
+df.info()
+x.value_counts()
+x.isnull()
+```
+## 2.2 Visualizations
+
+One dimension
+```
+Histograms: plt.hist(x)
+Plot(index versus value): plt.plot(x, '.')
+Stats:
+   df.describe()
+   x.mean()
+   x.var()
+Others:
+  x.value_counts() //count distinct values
+  x.isnull()
+```
+
+2 dimension
+```
+plt.scatter(x1, x2)
+pd.scatter_matrix(df)
+df.corr(), plt.matshow(...)
+df.mean().sort_values().plot(style='.')
+```
+
+[todo]
+Get more info from [iris eda](https://www.youtube.com/playlist?list=PLS8ACsmFCpmSvhSv4TUkP6OJ1o4IEDEAc_
 ### Ref
 [[1] competitive-data-science](https://www.coursera.org/learn/competitive-data-science/lecture/7I3do/competition-mechanics)
 [[2] git repo](https://github.com/hchiuzhuo/competitive-data-science)
+[[3] iris eda](https://www.youtube.com/playlist?list=PLS8ACsmFCpmSvhSv4TUkP6OJ1o4IEDEAc)
